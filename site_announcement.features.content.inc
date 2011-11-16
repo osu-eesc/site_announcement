@@ -14,7 +14,7 @@ function site_announcement_content_default_fields() {
       'weight' => '-4',
       'parent' => '',
       'label' => array(
-        'format' => 'above',
+        'format' => 'hidden',
       ),
       'teaser' => array(
         'format' => 'default',
@@ -24,11 +24,11 @@ function site_announcement_content_default_fields() {
         'format' => 'default',
         'exclude' => 1,
       ),
-      '5' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
       '4' => array(
+        'format' => 'default',
+        'exclude' => 1,
+      ),
+      '5' => array(
         'format' => 'default',
         'exclude' => 0,
       ),
@@ -89,7 +89,7 @@ function site_announcement_content_default_fields() {
       'weight' => '-1',
       'parent' => '',
       'label' => array(
-        'format' => 'above',
+        'format' => 'hidden',
       ),
       'teaser' => array(
         'format' => 'default',
@@ -99,11 +99,11 @@ function site_announcement_content_default_fields() {
         'format' => 'default',
         'exclude' => 1,
       ),
-      '5' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
       '4' => array(
+        'format' => 'default',
+        'exclude' => 1,
+      ),
+      '5' => array(
         'format' => 'default',
         'exclude' => 0,
       ),
@@ -175,7 +175,7 @@ function site_announcement_content_default_fields() {
       'weight' => '-3',
       'parent' => '',
       'label' => array(
-        'format' => 'above',
+        'format' => 'hidden',
       ),
       'teaser' => array(
         'format' => 'default',
@@ -185,11 +185,11 @@ function site_announcement_content_default_fields() {
         'format' => 'default',
         'exclude' => 1,
       ),
-      '5' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
       '4' => array(
+        'format' => 'default',
+        'exclude' => 1,
+      ),
+      '5' => array(
         'format' => 'default',
         'exclude' => 0,
       ),
