@@ -1,0 +1,10 @@
+<?php
+
+include_once('site_announcement.features.inc');
+
+/**
+ * Implementation of hook_init().
+ */
+function site_announcement_init() {
+  drupal_add_css(drupal_get_path('module', 'site_announcement') .'/theme/site_announcement.css');
+}

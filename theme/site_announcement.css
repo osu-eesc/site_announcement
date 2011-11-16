@@ -1,0 +1,18 @@
+/* rss icon */
+div.view div.attachment .views-field-nothing  {
+  text-align: right;
+  margin-top: -28px;
+}
+
+#block-views-site_annoucnement-block_2.block div.views-field-title {
+  font-size: 105%;
+  margin: 0;
+  padding: 0;
+}
+
+div.views-field-field-site-announcement-teaser-value div.field-content p {
+  margin-top: 0;
+  font-size: 95%;
+}
+
+
