@@ -6,9 +6,9 @@
 function site_announcement_views_default_views() {
   $views = array();
 
-  // Exported view: site_annoucnement
+  // Exported view: site_announcement
   $view = new view;
-  $view->name = 'site_annoucnement';
+  $view->name = 'site_announcement';
   $view->description = 'Creates blocks that display site announcements';
   $view->tag = '';
   $view->view_php = '';
@@ -50,6 +50,36 @@ function site_announcement_views_default_views() {
       'override' => array(
         'button' => 'Override',
       ),
+    ),
+    'edit_node' => array(
+      'label' => '',
+      'alter' => array(
+        'alter_text' => 0,
+        'text' => '',
+        'make_link' => 0,
+        'path' => '',
+        'link_class' => '',
+        'alt' => '',
+        'prefix' => '',
+        'suffix' => '',
+        'target' => '',
+        'help' => '',
+        'trim' => 0,
+        'max_length' => '',
+        'word_boundary' => 1,
+        'ellipsis' => 1,
+        'html' => 0,
+        'strip_tags' => 0,
+      ),
+      'empty' => '',
+      'hide_empty' => 0,
+      'empty_zero' => 0,
+      'text' => '[ edit ]',
+      'exclude' => 0,
+      'id' => 'edit_node',
+      'table' => 'node',
+      'field' => 'edit_node',
+      'relationship' => 'none',
     ),
     'field_site_announcement_teaser_value' => array(
       'label' => '',
@@ -329,6 +359,14 @@ function site_announcement_views_default_views() {
   $handler->override_option('style_options', array(
     'grouping' => '',
   ));
+  $handler->override_option('row_options', array(
+    'inline' => array(
+      'title' => 'title',
+      'edit_node' => 'edit_node',
+    ),
+    'separator' => '&nbsp;',
+    'hide_empty' => 0,
+  ));
   $handler = $view->new_display('block', 'Block', 'block_1');
   $handler->override_option('block_description', '');
   $handler->override_option('block_caching', -1);
@@ -525,6 +563,7 @@ function site_announcement_views_default_views() {
   $handler->override_option('arguments', array());
   $handler->override_option('filters', array());
   $handler->override_option('items_per_page', 1);
+  $handler->override_option('row_options', array());
   $handler->override_option('attachment_position', 'before');
   $handler->override_option('inherit_arguments', TRUE);
   $handler->override_option('inherit_exposed_filters', FALSE);
@@ -618,6 +657,7 @@ function site_announcement_views_default_views() {
     'description' => '',
   ));
   $handler->override_option('row_plugin', 'node_rss');
+  $handler->override_option('row_options', array());
   $handler->override_option('path', 'announcement/rss');
   $handler->override_option('menu', array(
     'type' => 'none',

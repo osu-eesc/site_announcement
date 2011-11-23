@@ -1,18 +1,22 @@
 /* rss icon */
-div.view div.attachment .views-field-nothing  {
+#block-views-site_announcement-block_2 div.view div.attachment .views-field-nothing  {
   text-align: right;
-  margin-top: -28px;
+  margin-top: -30px;
 }
 
-#block-views-site_annoucnement-block_2.block div.views-field-title {
+#block-views-site_announcement-block_2.block .views-field-title,
+#block-views-site_announcement-block_1.block .views-field-title {
   font-size: 105%;
-  margin: 0;
-  padding: 0;
 }
 
-div.views-field-field-site-announcement-teaser-value div.field-content p {
-  margin-top: 0;
+#block-views-site_announcement-block_1.block .views-field-field-site-announcement-teaser-value,
+#block-views-site_announcement-block_2.block .views-field-field-site-announcement-teaser-value {
   font-size: 95%;
+}
+
+#block-views-site_announcement-block_2.block .views-field-edit-node {
+  float: right;
+  padding-right: 0;
 }
 
 
