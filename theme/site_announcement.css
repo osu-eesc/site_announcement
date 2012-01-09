@@ -2,6 +2,7 @@
 #block-views-site_announcement-block_2 div.view div.attachment .views-field-nothing  {
   text-align: right;
   margin-top: -30px;
+  padding-bottom: 10px;
 }
 
 #block-views-site_announcement-block_2.block .views-field-title,
