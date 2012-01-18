@@ -531,7 +531,7 @@ function site_announcement_views_default_views() {
     'nothing' => array(
       'label' => '',
       'alter' => array(
-        'text' => '<img src="http://extension.oregonstate.edu/sites/default/files/images/icons/rss_icon.png" alt="rss icon image" title="RSS Feed" />',
+        'text' => '<img src="http://extension.oregonstate.edu/_includes/images/rss_icon.png" alt="rss icon image" title="RSS Feed" />',
         'make_link' => 1,
         'path' => 'announcement/rss',
         'link_class' => '',
