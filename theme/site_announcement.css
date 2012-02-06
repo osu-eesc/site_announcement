@@ -18,8 +18,9 @@ div.views-field-field-site-announcement-teaser-value div.field-content {
 }
 
 #content-inner-inner div#block-views-site_announcement-block_2.block div.views-field-field-site-announcement-teaser-value div.field-content p,
-#content-inner-inner div#block-views-site_announcement-block_2.block div.views-field-field-site-announcement-teaser-value div.field-content div {
-    line-height: 15px;
+#content-inner-inner div#block-views-site_announcement-block_2.block div.views-field-field-site-announcement-teaser-value div.field-content div { 
+  line-height: 15px;
+  padding-top: 0;
 }
 
 #block-views-site_announcement-block_2.block .views-field-edit-node {
