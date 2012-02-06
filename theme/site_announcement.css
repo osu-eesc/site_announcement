@@ -5,9 +5,12 @@
   padding-bottom: 10px;
 }
 
-#block-views-site_announcement-block_2.block .views-field-title,
-#block-views-site_announcement-block_1.block .views-field-title {
-  font-size: 100%;
+div.view-site-announcement .views-row {
+  margin-bottom: 1.0em;
+}
+
+div.view-site-announcement .views-field-title {
+  font-size: 105%;
 }
 
 div.views-field-field-site-announcement-teaser-value div.field-content {
