@@ -1,4 +1,12 @@
 name = "Site Announcement"
 project = "site_announcement"
 
-TODO - add description and dependencies
+Used for creating and displaying site announcements
+core = "6.x"
+
+dependencies[] = "ctools"
+dependencies[] = "date"
+dependencies[] = "features"
+dependencies[] = "nodereference"
+dependencies[] = "strongarm"
+dependencies[] = "views"
