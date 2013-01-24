@@ -212,7 +212,7 @@ function site_announcement_content_default_fields() {
     'multiple' => '0',
     'module' => 'text',
     'active' => '1',
-    'text_processing' => '0',
+    'text_processing' => '1',
     'max_length' => '',
     'allowed_values' => '',
     'allowed_values_php' => '',
@@ -222,7 +222,6 @@ function site_announcement_content_default_fields() {
       'default_value' => array(
         '0' => array(
           'value' => '',
-          'format' => '2',
           '_error_element' => 'default_value_widget][field_site_announcement_teaser][0][value',
         ),
       ),

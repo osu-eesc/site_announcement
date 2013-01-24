@@ -79,12 +79,11 @@ function site_announcement_strongarm() {
     'revision_information' => '1',
     'author' => '4',
     'options' => '0',
-    'comment_settings' => '6',
     'menu' => '2',
     'book' => '3',
     'path' => '8',
+    'attachments' => '30',
     'path_redirect' => '5',
-    'xmlsitemap' => '7',
   );
   $export['content_extra_weights_site_announcement'] = $strongarm;
 
@@ -119,6 +118,13 @@ function site_announcement_strongarm() {
   $strongarm->name = 'pathauto_node_site_announcement_pattern';
   $strongarm->value = 'announcements/[title-raw]';
   $export['pathauto_node_site_announcement_pattern'] = $strongarm;
+
+  $strongarm = new stdClass;
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'upload_site_announcement';
+  $strongarm->value = '1';
+  $export['upload_site_announcement'] = $strongarm;
 
   return $export;
 }
