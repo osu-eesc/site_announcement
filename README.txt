@@ -1,12 +1,17 @@
 name = "Site Announcement"
 project = "site_announcement"
 
-Used for creating and displaying site announcements
+Use for adding the latest news and announcements to the homepage and/or to a selected page.
 core = "6.x"
 
-dependencies[] = "ctools"
-dependencies[] = "date"
-dependencies[] = "features"
-dependencies[] = "nodereference"
-dependencies[] = "strongarm"
-dependencies[] = "views"
+dependencies:
+Chaos tools
+Date
+Features
+Node Reference
+PHP filter (for unpublish expired announcements)
+Rules
+Strongarm
+System
+Token
+Views
